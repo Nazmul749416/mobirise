@@ -1,0 +1,388 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/* Header section */
+.jon-header span {
+    display: inline-block;
+    background: #6278DF;
+    color: #fff;
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+    top: 2px;
+    border-radius: 10px;
+}
+.jon-header .navbar-brand {
+    font-size: 25px;
+    font-weight: 500;
+}
+.jon-menu .nav-link {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-size: 20px;
+}
+/* slider section */
+.slider-section{
+    background:url(img/mbr-10.jpg) no-repeat center center ;
+    padding: 150px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index:-1;
+}
+.slider-caption h4{
+    margin-bottom: 35px;
+    font-weight: 300;
+    font-size: 25px;
+}
+.slider-caption h2{
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-size: 45px;
+}
+.slider-caption .form-control{
+    padding: 16px 20px;
+    
+}
+.slider-caption .btn {
+    background: #5ba533;
+    padding: 14px 16px;
+    font-size: 22px;
+    font-weight:600; 
+}
+.slider-caption .btn:hover{
+    background: #fff;
+    color: #6278DF;
+    border-color: #6278DF;
+}
+/* Number Counter */
+.counter-number-item .h2{
+    font-size: 60px;
+    font-weight: 500;
+    color: #000;
+    margin-top: 80px;
+}
+.counter-number-item p{
+    font-size: 24px;
+    
+}
+/* about section */
+.about-section{
+    background: #f7f9ff;
+}
+.about-text-left{
+    margin-top: 150px;
+}
+.about-text-left .lead{
+    font-size: 23px;
+    line-height: 1.5;
+}
+.about-text-left h1{
+    font-size: 40px;
+    margin-bottom:35px;
+    font-weight:500;
+}
+
+/* Feature section */
+
+.little-discription h2{
+    font-size: 45px;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+    
+}
+.little-discription p{
+    font-size: 28px;
+    margin-bottom: 35px;
+    font-weight:300;
+}
+.feature-item{
+    height: 250px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    transition:all 0.3s;
+}
+.left-img-src{
+    overflow: hidden;
+    width: 40%;
+    border-radius: 5px 0 0 5px;
+}
+.left-img-src img {
+    height: 100%;
+    width: auto;
+    max-width: inherit;
+    position: relative;
+    left: -32px;
+}
+.left-text-src{
+    width: 60%;
+    padding: 34px;
+}
+.left-text-src h2{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+/* portfolio section */
+.portfolio-section h2{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.portfolio-item a{
+    position: relative;
+    display: block;
+}
+.portfolio-item a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background:rgba(82, 103, 180, 0.7);
+    opacity: 0;
+    visibility: hidden;
+    transition:.3s;
+
+}
+.portfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+/* pricing tabile section */
+
+.min-section-bg{
+    background: #F7F9FF;
+}
+.pricing-tabile-section h1{
+    font-size: 60px;
+    font-weight: 400;
+}
+.pricing-tabile-section p{
+    font-size: 25px;
+    font-weight: 300;
+}
+.pricing-item{
+    background: #fff;
+    padding: 50px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    width: 80%;
+    border-radius: 5px;
+    }
+.pricing-item h2{
+    font-size: 45px;
+}
+.pricing-item h5{
+    font-size: 25px;
+font-weight: 300;
+}
+.pricing-item ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 50px;
+    
+}
+.pricing-item ul li{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 22px;
+    color: #777;
+    font-weight: 300;
+}
+.pricing-item ul li span{
+    color: #6278DF;
+    font-size: 25px;
+    font-weight: bold;
+    width: 52px;
+    float: left;
+    position: relative;
+    top: -3px;
+}
+.pricing-item-button a{
+    font-size: 25px;
+    font-weight: 500;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+    border: none;
+    padding: 15px 30px;
+    color: #6278df;
+}
+/* Testimonial section */
+.testimonial-section h1{
+    font-weight: 400;
+    font-size: 45px;    
+}
+.testimonial-section h5{
+    font-size: 30px;
+    font-weight: 300;
+
+}
+.testimonial-section span {
+    font-size: 80px;
+    color: #EFEFEF;
+}
+.author-info{
+    width: 200px;
+    margin: auto;
+}
+.author-info img{
+    width: 60px;
+    margin-right: 17px;
+
+}
+.author-info h4{
+    font-size: 21px;
+}
+.user-details {
+    text-align: left;
+    position: relative;
+    top: 4px;
+} 
+
+/* About Section  */
+
+.card{
+    border-style: none;
+    margin-bottom: 50px;
+}
+.about-headimg h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.about-section p{
+    font-size: 21px;
+    font-weight: 300;
+}
+.about-item{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+    transition: all 0.3s;
+    
+}
+.about-item .card{
+    margin-top: 100px;
+}
+.about-item .card img{
+    width: 140px;
+    height: auto;
+    margin-top: -70px;
+    margin-left: 15px;
+}
+
+.about-item .card-title{
+    margin-left: 30px;
+}
+.about-item .card-subtitle{
+    font-size: 22px;
+    margin-left: 30px;
+    font-weight: 400;
+}
+.about-item .card-text{
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 30px;
+}
+.about-item a{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 30px;
+    background: #fff;
+    border: none;
+    letter-spacing: -1px;
+}
+.about-item a:hover{
+    background:#465052 ;
+    color: #fff;
+}
+/* Content section */
+.content-section p{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.content-section h1{
+    font-size: 50px;
+    font-weight: 400;
+
+}
+ .content-section .card{
+    padding: 35px;
+}
+ .content-section .card h4{
+    font-size: 30px;
+    font-weight: 400;
+}
+.content-section .card textarea{
+    font-size: 25px;
+    font-weight: 300;
+}
+.content-section .card form input{
+    font-size: 25px;
+    font-weight: 300;
+}
+ .content-section .card button{
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px 20px;
+    background: #6278DF;
+}
+.content-section .card button:hover{
+    background: #fff;
+    color: #6278DF;
+    border: 1px solid #6278DF ;
+}
+
+.app-section{
+    width: 740px;
+    margin: auto;
+}
+.app-section h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+.app-section h4{
+    font-size: 25px;
+    font-weight: 300;
+}
+.app-section button{
+    padding: 15px 35px;
+    font-size: 25px;
+    font-weight: 600;
+    background: #5BA533;
+    border-style: none;
+
+}
+.app-section button:hover{
+  color: #fff;
+  background: #000000;
+
+}
+.app-section .fist-button{
+    padding: 15px 35px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 25px;
+    background: #fff;
+    color: #5BA533;
+    border: 2px solid #5BA533;
+}
+.app-section .fist-button:hover{
+    color:#fff;
+    background:#5BA533;
+}
+/* Footer Section */
+.footer-section p{
+    font-size: 20px;
+}
